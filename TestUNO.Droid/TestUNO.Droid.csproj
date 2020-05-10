@@ -62,13 +62,13 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="System.Text.Json">
-      <Version>4.7.1</Version>
+      <Version>5.0.0-preview.3.20214.6</Version>
     </PackageReference>
-    <PackageReference Include="Uno.UI" Version="2.2.0" />
-    <PackageReference Include="Uno.UI.RemoteControl" Version="2.2.0" Condition="'$(Configuration)'=='Debug'" />
+    <PackageReference Include="Uno.UI" Version="2.3.0-dev.170" />
+    <PackageReference Include="Uno.UI.RemoteControl" Version="2.3.0-dev.170" Condition="'$(Configuration)'=='Debug'" />
     <PackageReference Include="Uno.UniversalImageLoader" Version="1.9.32" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="1.1.1" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Filter" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Filter" Version="1.1.2" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />

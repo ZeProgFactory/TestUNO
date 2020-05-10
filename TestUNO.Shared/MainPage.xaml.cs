@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -31,10 +32,11 @@ namespace TestUNO
             // - - -   - - -  
 
             string Token = wsToken.NewToken().GetToken();
+            Token = Token + Environment.NewLine + (string)(ApplicationData.Current.LocalSettings.Values["Page"]);
 
             tb.Text = Token;
 
-
+            ApplicationData.Current.LocalSettings.Values["Page"] = DateTime.Now.ToString();
         }
     }
 }
