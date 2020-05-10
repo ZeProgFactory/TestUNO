@@ -43,6 +43,7 @@
     <PackageReference Include="Uno.UI.RemoteControl" Version="2.3.0-dev.170" Condition="'$(Configuration)'=='Debug'" />
     <PackageReference Include="Uno.Wasm.Bootstrap" Version="1.2.0-dev.41" />
     <PackageReference Include="Uno.Wasm.Bootstrap.DevServer" Version="1.2.0-dev.41" />
+    <PackageReference Include="ZPF_Users_Rights" Version="1.1.13" />
   </ItemGroup>
   <Import Project="..\TestUNO.Shared\TestUNO.Shared.projitems" Label="Shared" Condition="Exists('..\TestUNO.Shared\TestUNO.Shared.projitems')" />
 </Project>

@@ -11,7 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUNO.iOS", "TestUNO.iOS\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUNO.UWP", "TestUNO.UWP\TestUNO.UWP.csproj", "{842C3BD0-7590-453F-900F-F002BC49269D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUNO.Wasm", "TestUNO.Wasm\TestUNO.Wasm.csproj", "{1C6B77CC-74B2-40E9-B945-9E69B9934965}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestUNO.Wasm", "TestUNO.Wasm\TestUNO.Wasm.csproj", "{1C6B77CC-74B2-40E9-B945-9E69B9934965}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{905A93A8-38A1-406A-B919-6CBDA1544919}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
