@@ -1,0 +1,36 @@
+﻿<Application
+    x:Class="TestUNO.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TestUNO">
+
+   <Application.Resources>
+
+      <Style x:Name="HyperlinkButtonStyle"  TargetType="HyperlinkButton">
+         <Setter Property="Foreground" Value="Blue" />
+         <Setter Property="FontFamily" Value="/Assets/Fonts/GothamMedium.ttf#Gotham" />
+      </Style>
+
+      <Style x:Name="TextBlockStyle" TargetType="TextBlock">
+         <Setter Property="Foreground" Value="Blue" />
+         <Setter Property="FontFamily" Value="/Assets/Fonts/GothamMedium.ttf#Gotham" />
+      </Style>
+
+      <Style x:Name="TextBlockIconStyle" TargetType="TextBlock">
+         <Setter Property="Foreground" Value="Blue" />
+         <Setter Property="FontFamily" Value="/Assets/Fonts/IconFont.ttf#IconFont" />
+      </Style>
+      
+      <Style x:Name="ButtonxStyle" TargetType="Button">
+         <Setter Property="Foreground" Value="Blue" />
+         <Setter Property="FontFamily" Value="/Assets/Fonts/GothamMedium.ttf#Gotham" />
+      </Style>
+
+      <Style x:Name="ComboBoxStyle" TargetType="ComboBox">
+         <Setter Property="Foreground" Value="Blue" />
+         <Setter Property="FontFamily" Value="/Assets/Fonts/GothamMedium.ttf#Gotham" />
+      </Style>
+
+   </Application.Resources>
+
+</Application>

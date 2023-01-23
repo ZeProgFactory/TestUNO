@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="TestUNO.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TestUNO"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"    
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+   <Grid>
+      <StackPanel>
+
+         <TextBlock 
+            Text="Hello, world!" 
+            Margin="20" FontSize="30" />
+
+         <FontIcon  FontFamily="/Assets/Fonts/IconFont" 
+                    Glyph="&#xe978;"  Foreground="Blue" FontSize="36"  />
+
+         <TextBlock 
+            Style="{StaticResource TextBlockIconStyle}"
+            Text="&#xe978;" 
+            Margin="20" FontSize="48" />
+         
+         <TextBlock 
+            Text="Hello, world!" 
+            Margin="20" FontSize="30" />
+
+      </StackPanel>
+
+      <Image Source="/Assets/Avatar.x2.png" />
+   </Grid>
+</Page>
