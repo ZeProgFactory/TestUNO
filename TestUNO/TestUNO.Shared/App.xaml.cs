@@ -30,7 +30,7 @@ namespace TestUNO
 
          {
             Style style = (Style)XamlReader.Load(@"
-               <Style TargetType=""TextBlock"">
+               <Style TargetType=""HyperlinkButton"">
                   <Setter Property=""Foreground"" Value=""Blue"" />
                   <Setter Property=""FontFamily"" Value=""Gotham"" />
                </Style>
@@ -63,7 +63,7 @@ namespace TestUNO
 
          {
             Style style = (Style)XamlReader.Load(@"
-               <Style TargetType=""TextBlock"">
+               <Style TargetType=""Button"">
                   <Setter Property=""Foreground"" Value=""Blue"" />
                   <Setter Property=""FontFamily"" Value=""Gotham"" />
                </Style>
@@ -74,7 +74,7 @@ namespace TestUNO
 
          {
             Style style = (Style)XamlReader.Load(@"
-               <Style TargetType=""TextBlock"">
+               <Style TargetType=""ComboBox"">
                   <Setter Property=""Foreground"" Value=""Blue"" />
                   <Setter Property=""FontFamily"" Value=""Gotham"" />
                </Style>
@@ -82,7 +82,7 @@ namespace TestUNO
 
             Application.Current.Resources["ComboBoxStyle"] = style;
          }
-
+         
 #endif
 
 #if HAS_UNO || NETFX_CORE
